@@ -6,13 +6,13 @@ Instead of generating html per components, we define component templates and the
 
 Consider we hve the following:
 
----
+{code}
 /src
     /main
         /resources
             /html-components
                 next-button.html
----
+{code}
 Then from your main html file
 
 ---
