@@ -6,13 +6,16 @@ Instead of generating html per components, we define component templates and the
 
 Consider we hve the following:
 
+---
 /src
     /main
         /resources
             /html-components
                 next-button.html
-                
+---
 Then from your main html file
+
+---
 /src
     /main
         /webapp
@@ -23,3 +26,4 @@ Then from your main html file
                 <nextButton name="Next" action="what do i do"/>
               </body>
             </html>
+---
